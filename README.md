@@ -1,9 +1,8 @@
-# 🍅 Tomato eCommerce App
+# 🍅 Tomato eCommerce App  
 
-A sleek and interactive food ordering app built with **React + Vite**. Browse tasty food items, filter by category, manage your cart, and proceed to checkout — a complete mini eCommerce experience for food lovers and delivery platforms.
+A modern and interactive food ordering app built with **React**. Browse delicious food items, manage your cart with ease, filter by category, and head to checkout — all in a smooth, user-friendly experience. Ideal for food delivery or grocery platforms!
 
-## 🚀 Live Demo
-
+## 🚀 Live Demo  
 👉 [Click here to try it out](https://your-live-demo-link.netlify.app)
 
 ---
@@ -13,8 +12,9 @@ A sleek and interactive food ordering app built with **React + Vite**. Browse ta
 - 🛒 **Add & Remove Items** — Easily manage products in your cart  
 - ➕ **Quantity Control** — Increase or decrease item quantity  
 - 🍔 **Category Filter** — View items by selected category  
-- 🧹 **Clean UI** — Remove unwanted items from the cart  
-- 💳 **Checkout Flow** — Simple and clear order completion process
+- 🧹 **Clear UI** — Remove items from cart you don’t want  
+- 💳 **Checkout Flow** — Simple and clear checkout process  
+- 🔐 **Sign Up / Login UI** — Allow users to sign up or log in through a clean interface  
 
 ---
 
@@ -23,7 +23,7 @@ A sleek and interactive food ordering app built with **React + Vite**. Browse ta
 - **Frontend:** React 18 + Vite  
 - **State Management:** useState, useContext  
 - **Styling:** CSS  
-- **Hosting:** Netlify
+- **Hosting:** Netlify  
 
 ---
 

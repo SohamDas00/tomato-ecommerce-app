@@ -50,6 +50,13 @@
         cursor: pointer;
         transition: 0.3s;
     }
+    .hero{
+        height: 34vw;
+        margin: 30px,auto ;
+        background-image: url('/header_img.png');
+        background-size: contain; 
+        position: relative;
+    }
 }
 @media (max-width:500px) {
     .hero-container button{
@@ -72,6 +79,13 @@
         left: 5vw;
         animation: fadeIn 3s;
     }
+    .hero{
+        height: 34vw;
+        margin: 30px,auto ;
+        background-image: url('/header_img.png');
+        background-size: contain; 
+        position: relative;
+    }
 }
 @media (max-width:430px) {
     .hero-container button{
@@ -93,5 +107,12 @@
         bottom: 8%;
         left: 5vw;
         animation: fadeIn 3s;
+    }
+    .hero{
+        height: 34vw;
+        margin: 30px,auto ;
+        background-image: url('/header_img.png');
+        background-size: contain; 
+        position: relative;
     }
 }
