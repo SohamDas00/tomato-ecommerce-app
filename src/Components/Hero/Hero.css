@@ -1,0 +1,97 @@
+.hero{
+    height: 33.6vw;
+    margin: 30px,auto ;
+    background-image: url('header_img.png');
+    background-size: contain; 
+    position: relative;
+}
+.hero-container{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1.5vw;
+    max-width: 50%;
+    bottom: 8%;
+    left: 5vw;
+    animation: fadeIn 3s;
+}
+.hero-container h2{
+    color: white;
+    font-size: max(4.4vw,24px);
+    font-weight: 500;
+}
+.hero-container p{
+    color: white;
+    font-size: 1vw;
+}
+.hero-container button{
+    height: 3vw;
+    width: 100px;
+    border: none;
+    border-radius: 1.5vw;
+    font-size: 0.8vw;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.hero-container button:hover{
+    background-color: #fff4f2;
+}
+@media (max-width:600px) {
+    .hero-container p{
+        display: none;
+    }
+    .hero-container button{
+        height: 3vw;
+        width: 50px;
+        border: none;
+        border-radius: 1.5vw;
+        font-size: 0.8vw;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+}
+@media (max-width:500px) {
+    .hero-container button{
+        height: 3vw;
+        width: 40px;
+        border: none;
+        border-radius: 1.5vw;
+        font-size: 1.1vw;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .hero-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1.5vw;
+        max-width: 60%;
+        bottom: 8%;
+        left: 5vw;
+        animation: fadeIn 3s;
+    }
+}
+@media (max-width:430px) {
+    .hero-container button{
+        height: 3vw;
+        width: 35px;
+        border: none;
+        border-radius: 1.5vw;
+        font-size: 1.1vw;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    .hero-container{
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 1.5vw;
+        max-width: 70%;
+        bottom: 8%;
+        left: 5vw;
+        animation: fadeIn 3s;
+    }
+}

@@ -1,0 +1,32 @@
+.app-download{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.app-download p{
+    font-size: 40px;
+    font-weight: 500;
+}
+.app-download img{
+    margin-top: 10px;
+    width: 150px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.app-download img:hover{
+    transform: scale(1.05);
+}
+@media (max-width:500px) {
+    .app-download p{
+        font-size: 23px;
+        font-weight: 400;
+    }
+    .app-download img{
+        margin-top: 10px;
+        width: 110px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}
