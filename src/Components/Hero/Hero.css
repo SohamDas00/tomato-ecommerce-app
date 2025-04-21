@@ -1,7 +1,7 @@
 .hero{
     height: 33.6vw;
     margin: 30px,auto ;
-    background-image: url('header_img.png');
+    background-image: url('/header_img.png');
     background-size: contain; 
     position: relative;
 }
