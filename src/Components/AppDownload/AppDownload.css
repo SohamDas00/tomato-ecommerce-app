@@ -30,3 +30,15 @@
         cursor: pointer;
     }
 }
+@media (max-width:400px) {
+    .app-download p{
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .app-download img{
+        margin-top: 10px;
+        width: 110px;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+}

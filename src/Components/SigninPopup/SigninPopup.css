@@ -89,3 +89,26 @@
         background-color: #00000090;
     }
 }
+@media (max-width:500px) {
+    .login-container{
+        place-self: center;
+        background-color: white;
+        color: #80808080;
+        width: max(17vw,280px);
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        padding: 25px 30px;
+        border-radius: 8px;
+        font-size: 14px;
+        animation: fadeIn 0.7s;
+    }
+    .login-popup {
+        position: absolute;
+        display: grid;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        background-color: #00000090;
+    }
+}
