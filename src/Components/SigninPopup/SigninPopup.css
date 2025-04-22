@@ -89,7 +89,7 @@
         background-color: #00000090;
     }
 }
-@media (max-width:500px) {
+@media (max-width:400px) {
     .login-container{
         place-self: center;
         background-color: white;
