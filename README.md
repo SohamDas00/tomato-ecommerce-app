@@ -3,7 +3,7 @@
 A modern and interactive food ordering app built with **React**. Browse delicious food items, manage your cart with ease, filter by category, and head to checkout — all in a smooth, user-friendly experience. Ideal for food delivery or grocery platforms!
 
 ## 🚀 Live Demo  
-👉 [Click here to try it out](https://your-live-demo-link.netlify.app)
+👉 [Click here to try it out](https://sohamdas-tomato.netlify.app/)
 
 ---
 
